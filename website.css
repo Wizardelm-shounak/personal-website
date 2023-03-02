@@ -1,8 +1,11 @@
-h1{
+ html{
+    scroll-behavior: smooth;
+ }
+ h1{
     color: #af0505;
 }
 body{
-   background: linear-gradient(190deg, blue 0%, red 51%, #2cb5e8 75%);
+   background: linear-gradient(190deg, rgb(37, 185, 218) 0%, rgb(196, 7, 92) 51%, #2cb5e8 75%);
     color: aliceblue;
     height: 5000px;
     
@@ -38,9 +41,28 @@ transition: .3s;
 
 }
 h1 {
-    text-align: center;
+    text-align: left;
+    color: rgb( 66, 245, 120);
+   font-size: 70px;
+   padding-top:   150px;
+   padding-bottom: 50px;
 }
 img {
+    padding-top: 10px;
+    width: 500;
+    height: 500;
     float: right;
-    margin-right: 10px; 
+    margin-right: 20px; 
+    margin-left: 40px;
+    
   }
+  span{
+    color: #ea1538;
+  }
+  .lake{
+   float: left; 
+padding-bottom: 100px;  
+}
+.boxa{
+    padding-bottom: 100px;
+}
