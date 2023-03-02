@@ -5,7 +5,7 @@
     color: #af0505;
 }
 body{
-   background: linear-gradient(190deg, rgb(37, 185, 218) 0%, rgb(196, 7, 92) 51%, #2cb5e8 75%);
+   background: linear-gradient(190deg, rgb(37, 185, 218) 0%, rgb(196, 7, 92) 40%, #2cb5e8 75%);
     color: aliceblue;
     height: 5000px;
     
@@ -65,4 +65,7 @@ padding-bottom: 100px;
 }
 .boxa{
     padding-bottom: 100px;
+}
+h4{
+    font-size: 30px;
 }
